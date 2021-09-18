@@ -5,9 +5,9 @@ namespace TestProject.WebAPI
 {
     public class AuthOptions
     {
-        public const string ISSUER = "AuthServerName";
-        public const string AUDIENCE = "http://localhost:54598/";
-        const string KEY = "this is my custom Secret key for authnetication!123";
+        public const string ISSUER = "http://localhost:44350";
+        public const string AUDIENCE = "http://localhost:4200/";
+        const string KEY = "superSecretKey@345";
         public const int LIFETIME = 1;
 
         public static SymmetricSecurityKey GetSymmetricSecurityKey()
